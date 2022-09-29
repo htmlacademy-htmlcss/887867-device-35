@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Девайс</title>
+  </head>
+  <body>
+<header class="page-header">
+
+  <nav class="navigation">
+    <a href="index.html" class="navigation-link">
+      <img class="logo" src="#" alt="логотип Девайс">
+    </a>
+    <ul class="navigation-list navigation-search">
+      <li class="navigation-items">
+        <form>
+          <img class="navigation-icon" src="#" alt="иконка поиск" >
+          <input type="search" name="search" class="search" placeholder="Поиск по сайту">
+          <button type="button" class="navigation-button">Найти</button>
+        </form>
+      </li>
+      <li class="navigation-items">
+        <img src="#" alt="иконка регистрации" class="navigation-icon">
+        <a href="#" class="navigation-link">Войти</a>
+      </li>
+    </ul>
+    <ul class="navigation-list">
+      <li class="navigation-items">
+        <img src="#" alt="иконка сравнить" class="navigation-icon">
+        <a href="#" class="navigation-link">Сравнить</a>
+      </li>
+      <li class="navigation-items">
+        <img src="#" alt="иконка корзины" class="navigation-icon">
+        <a href="#" class="navigation-link">Корзина</a>
+      </li>
+    </ul>
+    <a>Каталог товаров</a>
+    <ul class="menu-list">
+     <li class="menu-list">
+      <a href="#" class="menu-link">Доставка</a>
+     </li>
+     <li class="menu-list">
+      <a href="#" class="menu-link">Гарантия</a>
+     </li>
+     <li class="menu-list">
+      <a href="#" class="menu-link">Контакты</a>
+     </li>
+    </ul>
+  </nav>
+</header>
+
+
+<main class="main-catalog">
+  <header class="inner-header">
+    <h1 class="inner-header-title">Моноподы для селфи</h1>
+    <ul class="breadcrumbs">
+      <li class="breadcrumbs-item">
+        <a class="breadcrumbs-link" href="index.html">Главная</a>
+      </li>
+      <li class="breadcrumbs-item" >
+        <a class="breadcrumbs-link" href="#">Каталог товаров</a>
+      </li>
+      <li class="breadcrumbs">
+        <a class="breadcrumbs">Моноподы для селфи </a>
+      </li>
+    </ul>
+  </header>
+  <section class="catalog-products">
+    <h2 class="catalog-header">фильтр:</h2>
+
+    <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
+      <label for="price"><h3 class="catalog-filter-price">Стоимость</h3></label>
+      от 0<input type="range" id="price" min="0" max="9000" step="1">до 5000
+
+    </form>
+
+  </section>
+</main>
+
+
+<footer class="page-footer">
+
+  <section class="footer-contacts">
+    <h2 class="visually-hidden">Контакты</h2>
+    <img class="footer-contacs-logo" src="#" alt="Логотип магазина «Девайс».">
+    <address class="footer-contacts-address">
+      <p class="footer-contacs-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
+    </address>
+  </section>
+
+  <section class="footer-services">
+    <h2 class="visually-hidden">Услуги</h2>
+    <ul class="footer-services-list">
+      <li class="footer-services-item"><a class="footer-services-link" href="#">Доставка</a></li>
+      <li class="footer-services-item"><a class="footer-services-link" href="#">Гарантия</a></li>
+      <li class="footer-services-item"><a class="footer-services-link" href="#">Контакты</a></li>
+    </ul>
+  </section>
+
+  <section class="footer-social">
+    <h2 class="visually-hidden">Социальные сети</h2>
+    <ul class="footer-social-list">
+      <li class="footer-social-item">
+        <a class="footer-button" href="https://t.me/htmlacademy">
+          <img class="footer-social-icon" src="" alt="Иконка телеграма">
+        </a>
+      </li>
+      <li class="footer-social-item">
+        <a class="footer-button" href="https://www.youtube.com/user/htmlacademyru">
+          <img class="footer-social-icon" src="" alt="Иконка ютуба">
+        </a>
+      </li>
+      <li class="footer-social-item">
+        <a class="footer-button" href="https://twitter.com/htmlacademy_ru ">
+          <img class="footer-social-icon" src="" alt="Иконка твиттера">
+        </a>
+      </li>
+
+  </section>
+
+  <section class="footer-academy">
+    <a href="tel:+78128121212" class="footer-academy-tel">Тел:+7 (812) 812-12-12</a>
+    <a class="footer-academy-link" href="https://htmlacademy.ru/">
+      <img src="#" class="footer-academy-icon" alt="html-academy">
+    </a>
+  </section>
+</footer>
+  </body>
+</html>
