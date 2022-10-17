@@ -3,51 +3,52 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Девайс</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
 
-<header class="page-header">
+  <header class="page-header">
 
-  <nav class="navigation">
-    <a href="index.html" class="navigation-link">
-      <img class="logo" src="image/header/logo.svg" alt="логотип Девайс" width="145" height="36">
-    </a>
-    <ul class="navigation-list navigation-search">
-      <li class="navigation-item">
-        <form>
-          <input type="search" name="search" class="search" placeholder="Поиск по сайту">
-          <button type="submit" class="navigation-button">Найти</button>
-        </form>
-      </li>
-      <li class="navigation-item">
-        <a href="#" class="navigation-link">Войти</a>
-      </li>
-    </ul>
-    <ul class="navigation-list">
-      <li class="navigation-item">
-        <a href="#" class="navigation-link">Сравнить</a>
-      </li>
-      <li class="navigation-item">
-        <a href="#" class="navigation-link">Корзина</a>
-      </li>
-    </ul>
+    <nav class="navigation">
+      <a href="index.html" class="navigation-link">
+        <img class="logo" src="image/header/logo.svg" alt="логотип Девайс" width="145" height="36">
+      </a>
+      <ul class="navigation-list navigation-search">
+        <li class="navigation-item">
+          <form>
+            <input type="search" name="search" class="search" placeholder="Поиск по сайту">
+            <button type="submit" class="navigation-button">Найти</button>
+          </form>
+        </li>
+        <li class="navigation-item">
+          <a href="#" class="navigation-link">Войти</a>
+        </li>
+      </ul>
+      <ul class="navigation-list">
+        <li class="navigation-item">
+          <a href="#" class="navigation-link">Сравнить</a>
+        </li>
+        <li class="navigation-item">
+          <a href="#" class="navigation-link">Корзина</a>
+        </li>
+      </ul>
 
-    <ul class="menu-list">
+      <ul class="menu-list">
+        <li class="menu-item">
+          <a href="#" class="navigation-link menu-link">Каталог товаров</a>
+        </li>
       <li class="menu-item">
-        <a href="#" class="menu-link">Каталог товаров</a>
+        <a href="#" class="navigation-link menu-link">Доставка</a>
       </li>
-     <li class="menu-item">
-      <a href="#" class="menu-link">Доставка</a>
-     </li>
-     <li class="menu-list">
-      <a href="#" class="menu-link">Гарантия</a>
-     </li>
-     <li class="menu-list">
-      <a href="#" class="menu-link">Контакты</a>
-     </li>
-    </ul>
-  </nav>
-</header>
+      <li class="menu-item">
+        <a href="#" class="navigation-link menu-link">Гарантия</a>
+      </li>
+      <li class="menu-item">
+        <a href="#" class="navigation-link menu-link">Контакты</a>
+      </li>
+      </ul>
+    </nav>
+  </header>
 
 
 <main class="main-index">
@@ -58,7 +59,7 @@
     <button type="button" class="slider-button slider-prev">
       <span class="visually-hidden">предыдущий товар</span>
     </button>
-    <img class="slider-icon" src="image/main/slider-quadrocopter.png" alt="Квадрокоптер" width="560" height="560">
+    <img class="slider-icon" src="image/slider-quadrocopter.png" alt="Квадрокоптер" width="560" height="560">
     <button type="button" class="slider-button slider-next">
       <span class="visually-hidden">следующий товар</span>
     </button>
@@ -83,7 +84,7 @@
     <button type="button" class="slider-button slider-prev">
       <span class="visually-hidden">предыдущий товар</span>
     </button>
-    <img class="slider-icon" src="image/main/fitness-bras.png" alt="фитнес-браслет" width="560" height="560">
+    <img class="slider-icon" src="image/fitness-bras.png" alt="фитнес-браслет" width="560" height="560">
     <button type="button" class="slider-button slider-next">
       <span class="visually-hidden">следующий товар</span>
     </button>
@@ -106,7 +107,7 @@
     <button type="button" class="slider-button slider-prev">
       <span class="visually-hidden">предыдущий товар</span>
     </button>
-    <img class="slider-icon" src="image/main/monopod.png" alt="моноподы" width="560" height="560">
+    <img class="slider-icon" src="image/monopod.png" alt="моноподы" width="560" height="560">
     <button type="button" class="slider-button slider-next">
       <span class="visually-hidden">следующий товар</span>
     </button>
@@ -128,43 +129,54 @@
         </tr>
       </table>
   </div>
+  <ul class="slider-ilst">
+    <li class="slider-item">
+      <button class="slider-button-circle" type="button"><p class="visually-hidden">1</p></button>
+    </li>
+    <li class="slider-item">
+      <button class="slider-button-circle" type="button"><p class="visually-hidden">2</p></button>
+    </li>
+    <li class="slider-item">
+      <button class="slider-button-circle" type="button"><p class="visually-hidden">3</p></button>
+    </li>
+  </ul>
 </section>
 <section class="categories">
   <h2 class="visually-hidden">Ассортимент товаров</h2>
 <ul class="categories-list">
   <li class="categories-items">
     <a href="#" class="categories-link">
-      <img class="categories-icon" src="image/main/VR.svg" alt="иконка шлема виртуальной реальности" width="96.95" height="54.99">
+      <img class="categories-icon" src="image/VR.svg" alt="иконка шлема виртуальной реальности" width="96.95" height="54.99">
       <h3 class="categories-header">Виртуальная реальность</h3>
     </a>
   </li>
   <li class="categories-items">
     <a href="catalog.html" class="categories-link">
-      <img class="categories-icon" src="image/main/monopod.svg" alt="иконка моноподы" width="85.87" height="117">
+      <img class="categories-icon" src="image/monopod.svg" alt="иконка моноподы" width="85.87" height="117">
       <h3 class="categories-header">Моноподы для селфи</h3>
     </a>
   </li>
   <li class="categories-items">
     <a href="#" class="categories-link">
-      <img class="categories-icon" src="image/main/go-pro.svg" alt="иконка экшн-камеры" width="71.02" height="87">
+      <img class="categories-icon" src="image/go-pro.svg" alt="иконка экшн-камеры" width="71.02" height="87">
       <h3 class="categories-header">Экшн-камеры</h3>
     </a>
   </li>
   <li class="categories-items">
     <a href="#" class="categories-link">
-      <img class="categories-icon" src="image/main/fit-bras.svg" alt="иконка фитнес-браслета" width="107.31" height="64.99">
+      <img class="categories-icon" src="image/fit-bras.svg" alt="иконка фитнес-браслета" width="107.31" height="64.99">
       <h3 class="categories-header">Фитнес-браслеты</h3>
     </a>
   </li>
   <li class="categories-items">
     <a href="#" class="categories-link">
-      <img class="categories-icon" src="image/main/watch.svg" alt="иконка часов" width="56.01" height="97.98">
+      <img class="categories-icon" src="image/watch.svg" alt="иконка часов" width="56.01" height="97.98">
       <h3 class="categories-header">Умные часы</h3>
     </a>
   </li>
   <li class="categories-items">
     <a href="#" class="categories-link">
-      <img class="categories-icon" src="image/main/quadrocopter.svg" alt="иконка квадрокоптера" width="132.03px" height="69.01px">
+      <img class="categories-icon" src="image/quadrocopter.svg" alt="иконка квадрокоптера" width="132.03px" height="69.01px">
       <h3 class="categories-header">Квадрокоптеры</h3>
     </a>
   </li>
@@ -187,26 +199,24 @@
     <li class="services-items">
       <h3 class="services-header">Доставка</h3>
       <p class="services-text">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
-      <img class="services-icon" src="image/main/courier.svg" alt="изображение курьера" width="136px" height="164px">
+      <img class="services-icon" src="image/courier.svg" alt="изображение курьера" width="136px" height="164px">
     </li>
     <li class="services-items">
       <h3 class="services-header">Гарантия</h3>
       <p class="services-text">Если из-за возгорания купленного у нас товара у вас сгорит дом — не переживайте, мы выдадим вам новый. Товар, не дом, конечно же.</p>
-      <img class="services-icon" src="image/main/guarantee.svg" alt="тех поддержка" width="171" height="198">
+      <img class="services-icon" src="image/guarantee.svg" alt="тех поддержка" width="171" height="198">
     </li>
     <li class="services-items">
       <h3 class="services-header">Кредит</h3>
       <p class="services-text">Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодные условия кредита. Выгодные для банка, разумеется.</p>
-      <img class="services-icon" src="image/main/credit.svg" alt="человечек с картой" width="156" height="188">
+      <img class="services-icon" src="image/credit.svg" alt="человечек с картой" width="156" height="188">
     </li>
   </ul>
 </section>
 <section class="delivery">
   <h2 class="visually-hidden">Доставка</h2>
   <span class="delivery-order">
-    <img class="delivery-icon" src="image/main/car.svg" alt="грузовик" width="47" height="31">
     <button type="button" class="delivery-button">Доставим редкий товар под заказ</button>
-    <img src="#" alt="значок информации" class="delivery-inf">
   </span>
 </section>
 <section class="inform">
@@ -241,10 +251,10 @@
   <p class="mailing-text">Еженедельный дайджест с обзорами новинок, длительными тест-драйвами, распаковками, а также акции, спецпредложения и вот это вот всё.</p>
   <form class="mailing-form" action="#" method="get">
       <input type="email" name="email" class="mailing-email" placeholder="Ваш e-mail">
-      <button type="button" class="mailing-button">Подписаться</button>
+      <button type="submit" class="mailing-button">Подписаться</button>
   </form>
   <span class="mailing-free">
-    <p class="mailing-text">Это бесплатно</p>
+    <p class="mailing-text inform-check">Это бесплатно</p>
   </span>
 </section>
 </main>
@@ -254,7 +264,7 @@
 
   <section class="footer-contacts">
     <h2 class="visually-hidden">Контакты</h2>
-    <img class="footer-contacs-logo" src="image/footer/logo-yellow.svg" alt="Логотип магазина «Девайс»." width="145px" height="36px">
+    <img class="footer-contacs-logo" src="image/footer/logo-footer.svg" alt="Логотип магазина «Девайс»." width="145px" height="36px">
     <address class="footer-contacts-address">
       <p class="footer-contacs-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
     </address>
@@ -274,17 +284,14 @@
     <ul class="footer-social-list">
       <li class="footer-social-item">
         <a class="footer-button" href="https://t.me/htmlacademy">
-          <img class="footer-social-icon" src="image/footer/telegram.svg" alt="Иконка телеграма" width="13.34px" height="11.19px">
         </a>
       </li>
       <li class="footer-social-item">
         <a class="footer-button" href="https://www.youtube.com/user/htmlacademyru">
-          <img class="footer-social-icon" src="image/footer/youtube.svg" alt="Иконка ютуба" width="16px" height="10.67px">
         </a>
       </li>
       <li class="footer-social-item">
         <a class="footer-button" href="https://twitter.com/htmlacademy_ru ">
-          <img class="footer-social-icon" src="image/footer/twitter.svg" alt="Иконка твиттера" width="15" height="14.06">
         </a>
       </li>
 
