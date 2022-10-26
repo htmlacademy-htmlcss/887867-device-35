@@ -210,26 +210,28 @@
           </ul>
         </section>
         <section class="services">
-          <h2 class="visually-hidden">Услуги</h2>
-          <ul class="services-button-list">
-            <li class="services-button-items">
-              <button type="button" class="services-button">Доставка</button>
-            </li>
-            <li class="services-button-items">
-              <button type="button" class="services-button">Гарантия</button>
-            </li>
-            <li class="services-button-items">
-              <button type="button" class="services-button">Кредит</button>
-            </li>
-          </ul>
-          <ul class="services-list">
-            <li class="services-items">
-              <h3 class="services-header">Доставка</h3>
-              <p class="services-text">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно
-                бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
-              <img class="services-icon" src="image/courier.svg" alt="изображение курьера" width="136px" height="164px">
-            </li>
-            <!-- <li class="services-items">
+          <div class="services-container">
+            <h2 class="visually-hidden">Услуги</h2>
+            <ul class="services-button-list">
+              <li class="services-button-items">
+                <button type="button" class="services-button">Доставка</button>
+              </li>
+              <li class="services-button-items">
+                <button type="button" class="services-button">Гарантия</button>
+              </li>
+              <li class="services-button-items">
+                <button type="button" class="services-button">Кредит</button>
+              </li>
+            </ul>
+            <ul class="services-list">
+              <li class="services-items">
+                <h3 class="services-header">Доставка</h3>
+                <p class="services-text">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно
+                  бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
+                <img class="services-icon" src="image/courier.svg" alt="изображение курьера" width="136px"
+                  height="164px">
+              </li>
+              <!-- <li class="services-items">
               <h3 class="services-header">Гарантия</h3>
               <p class="services-text">Если из-за возгорания купленного у нас товара у вас сгорит дом — не переживайте,
                 мы выдадим вам новый. Товар, не дом, конечно же.</p>
@@ -241,7 +243,8 @@
                 наиболее выгодные условия кредита. Выгодные для банка, разумеется.</p>
               <img class="services-icon" src="image/credit.svg" alt="человечек с картой" width="156" height="188">
             </li> -->
-          </ul>
+            </ul>
+          </div>
         </section>
         <section class="delivery">
           <h2 class="visually-hidden">Доставка</h2>
@@ -279,66 +282,69 @@
           </div>
         </section>
         <section class="mailing">
-          <h2 class="mailing-header">Подпишитесь на рассылку</h2>
-          <p class="mailing-text">Еженедельный дайджест с обзорами новинок, длительными тест-драйвами, распаковками, а
-            также акции, спецпредложения и вот это вот всё.</p>
-          <form class="mailing-form" action="#" method="get">
-            <input type="email" name="email" class="mailing-email" placeholder="Ваш e-mail">
-            <button type="submit" class="mailing-button">Подписаться</button>
-          </form>
-          <span class="mailing-free">
-            <p class="mailing-text inform-check">Это бесплатно</p>
-          </span>
+          <div class="mailing-container">
+            <h2 class="mailing-header">Подпишитесь на рассылку</h2>
+            <p class="mailing-text">Еженедельный дайджест с обзорами новинок, длительными тест-драйвами, распаковками, а
+              также акции, спецпредложения и вот это вот всё.</p>
+            <form class="mailing-form" action="#" method="get">
+              <input type="email" name="email" class="mailing-email" placeholder="Ваш e-mail">
+              <button type="submit" class="mailing-button">Подписаться</button>
+            </form>
+            <span class="mailing-free">
+              <p class="mailing-text inform-check">Это бесплатно</p>
+            </span>
+          </div>
         </section>
       </div>
     </main>
 
 
     <footer class="page-footer">
+      <div class="footer-container">
+        <section class="footer-contacts">
+          <h2 class="visually-hidden">Контакты</h2>
+          <img class="footer-contacs-logo" src="image/footer/logo-footer.svg" alt="Логотип магазина «Девайс»."
+            width="145px" height="36px">
+          <address class="footer-contacts-address">
+            <p class="footer-contacs-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
+          </address>
+        </section>
 
-      <section class="footer-contacts">
-        <h2 class="visually-hidden">Контакты</h2>
-        <img class="footer-contacs-logo" src="image/footer/logo-footer.svg" alt="Логотип магазина «Девайс»."
-          width="145px" height="36px">
-        <address class="footer-contacts-address">
-          <p class="footer-contacs-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
-        </address>
-      </section>
+        <section class="footer-services">
+          <h2 class="visually-hidden">Услуги</h2>
+          <ul class="footer-services-list">
+            <li class="footer-services-item"><a class="footer-services-link" href="#">Доставка</a></li>
+            <li class="footer-services-item"><a class="footer-services-link" href="#">Гарантия</a></li>
+            <li class="footer-services-item"><a class="footer-services-link" href="#">Контакты</a></li>
+          </ul>
+          <!-- </section>
 
-      <section class="footer-services">
-        <h2 class="visually-hidden">Услуги</h2>
-        <ul class="footer-services-list">
-          <li class="footer-services-item"><a class="footer-services-link" href="#">Доставка</a></li>
-          <li class="footer-services-item"><a class="footer-services-link" href="#">Гарантия</a></li>
-          <li class="footer-services-item"><a class="footer-services-link" href="#">Контакты</a></li>
-        </ul>
-      </section>
+      <section class="footer-social"> -->
+          <h2 class="visually-hidden">Социальные сети</h2>
+          <ul class="footer-social-list">
+            <li class="footer-social-item">
+              <a class="footer-button" href="https://t.me/htmlacademy">
+              </a>
+            </li>
+            <li class="footer-social-item">
+              <a class="footer-button" href="https://www.youtube.com/user/htmlacademyru">
+              </a>
+            </li>
+            <li class="footer-social-item">
+              <a class="footer-button" href="https://twitter.com/htmlacademy_ru ">
+              </a>
+            </li>
 
-      <section class="footer-social">
-        <h2 class="visually-hidden">Социальные сети</h2>
-        <ul class="footer-social-list">
-          <li class="footer-social-item">
-            <a class="footer-button" href="https://t.me/htmlacademy">
-            </a>
-          </li>
-          <li class="footer-social-item">
-            <a class="footer-button" href="https://www.youtube.com/user/htmlacademyru">
-            </a>
-          </li>
-          <li class="footer-social-item">
-            <a class="footer-button" href="https://twitter.com/htmlacademy_ru ">
-            </a>
-          </li>
+        </section>
 
-      </section>
-
-      <section class="footer-academy">
-        <a href="tel:+78128121212" class="footer-academy-tel">Тел:+7 (812) 812-12-12</a>
-        <a class="footer-academy-link" href="https://htmlacademy.ru/">
-          <img class="footer-academy-icon" src="image/footer/logo-academy.svg" alt="html-academy" width="114.9"
-            height="32.9">
-        </a>
-      </section>
+        <section class="footer-academy">
+          <a href="tel:+78128121212" class="footer-academy-tel">Тел:+7 (812) 812-12-12</a>
+          <a class="footer-academy-link" href="https://htmlacademy.ru/">
+            <img class="footer-academy-icon" src="image/footer/logo-academy.svg" alt="html-academy" width="114.9"
+              height="32.9">
+          </a>
+        </section>
+      </div>
     </footer>
   </body>
 

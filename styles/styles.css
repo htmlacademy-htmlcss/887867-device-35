@@ -161,12 +161,14 @@ body {
 }
 
 .page-container {
-  width: 1160px;
+  width: 1440px;
   margin: 0 auto;
 }
 
 .slider {
   margin-bottom: 70px;
+  width: 1160px;
+  margin: 0 auto;
 }
 
 .slider-products {
@@ -252,6 +254,11 @@ body {
   margin: 0 auto;
 }
 
+.categories {
+  width: 1160px;
+  margin: 0 auto;
+}
+
 .categories-list {
   list-style-type: none;
   display: flex;
@@ -292,11 +299,6 @@ body {
   color: #000000;
 }
 
-.services {
-  display: flex;
-  height: 319px;
-}
-
 .services-button-list {
   list-style-type: none;
   padding: 0;
@@ -327,6 +329,14 @@ margin-bottom: 35px;
 
 .services {
   background-color: #F0F0F0;
+  margin-bottom: 142px;
+}
+
+.services-container {
+  display: flex;
+  height: 319px;
+  width: 1160px;
+  margin: 0 auto;
 }
 
 .services-list {
@@ -352,6 +362,8 @@ margin-bottom: 35px;
 }
 .delivery{
   margin-bottom: 70px;
+  width: 1160px;
+  margin: 0 auto;
 }
 
 .delivery-order {
@@ -371,6 +383,8 @@ margin-bottom: 35px;
 .inform {
   display: flex;
   margin-bottom: 70px;
+  width: 1160px;
+  margin: 0 auto;
 }
 
 .inform-about{
@@ -441,6 +455,11 @@ margin-bottom: 35px;
 
 .mailing {
   background-color: #F0F0F0;
+  width: 1440px;
+}
+.mailing-container {
+  width: 1160px;
+  margin: 0 auto;
 }
 
 .mailing-header {
@@ -492,16 +511,44 @@ margin-bottom: 35px;
 .page-footer {
   background-color: #444444;
   color: #ffffff;
+  width: 1440px;
+  margin: 0 auto;
+  height: 320px;
+}
+
+.footer-container {
+  width: 1160px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.footer-contacts {
+  width: 240px;
+  margin-top: 62px;
+  margin-right: 120px;
+}
+
+.footer-contacs-logo {
+  display: block;
+  margin-bottom: 35px;
 }
 
 .footer-contacs-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
+  margin: 0;
+}
+
+.footer-services {
+  margin-right: 183px;
+  margin-top: 140px;
+  width: 450px;
 }
 
 .footer-services-list {
   list-style-type: none;
+  margin: 0;
 }
 
 .footer-services-link {
@@ -513,16 +560,35 @@ margin-bottom: 35px;
   color: #ffffff;
 }
 
+.footer-academy {
+  width: 175px;
+  height: 116px;
+  margin-top: 140px;
+}
+
 .footer-academy-tel {
+  display: block;
   font-family: 'Rubik', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   color: #FFFFFF;
+  }
+
+.footer-academy-link{
+  display: block;
+  margin-top: auto;
+}
+
+.footer-academy-icon{
+  display: block;
+  margin-left: auto;
+  margin-top: auto;
 }
 
 .footer-social-list {
   list-style-type: none;
+  display: flex;
 }
 
 .footer-social-item {
