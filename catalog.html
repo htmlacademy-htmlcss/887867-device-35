@@ -10,14 +10,14 @@
   <body>
 
 
-    <header class="page-header ">
+    <header class="page-header">
       <a href="index.html" class="logo-link">
         <img class="logo" src="image/header/logo.svg" alt="логотип Девайс" width="145" height="36">
       </a>
       <div class="search">
         <ul class="search-list">
           <li class="search-item">
-            <form>
+            <form class="search-form">
               <input type="search" name="search" class="search-input" placeholder="Поиск по сайту">
               <button type="submit" class="search-button">Найти</button>
             </form>
@@ -80,8 +80,10 @@
           <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
             <h2 class="catalog-header">фильтр:</h2>
             <div class="catalog-filter-group">
-              <label class="catalog-filter-title">Стоимость
-                от 0<input type="range" id="price" min="0" max="9000" step="1">до 5000</label>
+              <p class="catalog-filter-title">Стоимость</p>
+              <label class="catalog-filter-label">
+                <input class="catalog-filter-input" type="range" id="price" min="0" max="9000" step="1">
+              </label>
             </div>
 
             <div class="catalog-filter-group">
@@ -147,18 +149,21 @@
           </form>
 
           <div class="catalog-right-column">
-            <h2 class="catalog-header">Сортировка:</h2>
-            <select class="select-control" aria-label="Сортировка">
-              <option class="catalog-header-option" value="popular">Популярные</option>
-              <option class="catalog-header-option" value="price">Цена</option>
-            </select>
 
-            <a href="#" class="button-arrows button-arrows-up">
-              <span class="visually-hidden">По возрастанию</span>
-            </a>
-            <a href="#" class="button-arrows button-arrows-down">
-              <span class="visually-hidden">По возрастанию</span>
-            </a>
+            <div class="catalog-right-head">
+              <h2 class="catalog-right-header">Сортировка:</h2>
+              <select class="select-control" aria-label="Сортировка">
+                <option class="catalog-header-option" value="popular">Популярные</option>
+                <option class="catalog-header-option" value="price">Цена</option>
+              </select>
+
+              <a href="#" class="button-arrows button-arrows-up">
+                <span class="visually-hidden">По возрастанию</span>
+              </a>
+              <a href="#" class="button-arrows button-arrows-down">
+                <span class="visually-hidden">По возрастанию</span>
+              </a>
+            </div>
 
             <div class="product">
               <ul class="product-list">
