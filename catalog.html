@@ -10,14 +10,14 @@
   <body>
 
 
-    <header class="page-header ">
+    <header class="page-header">
       <a href="index.html" class="logo-link">
         <img class="logo" src="image/header/logo.svg" alt="логотип Девайс" width="145" height="36">
       </a>
       <div class="search">
         <ul class="search-list">
           <li class="search-item">
-            <form>
+            <form class="search-form">
               <input type="search" name="search" class="search-input" placeholder="Поиск по сайту">
               <button type="submit" class="search-button">Найти</button>
             </form>
@@ -80,8 +80,10 @@
           <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
             <h2 class="catalog-header">фильтр:</h2>
             <div class="catalog-filter-group">
-              <label class="catalog-filter-title">Стоимость
-                от 0<input type="range" id="price" min="0" max="9000" step="1">до 5000</label>
+              <p class="catalog-filter-title">Стоимость</p>
+              <label class="catalog-filter-label">
+                <input class="catalog-filter-input" type="range" id="price" min="0" max="9000" step="1">
+              </label>
             </div>
 
             <div class="catalog-filter-group">
@@ -147,18 +149,21 @@
           </form>
 
           <div class="catalog-right-column">
-            <h2 class="catalog-header">Сортировка:</h2>
-            <select class="select-control" aria-label="Сортировка">
-              <option class="catalog-header-option" value="popular">Популярные</option>
-              <option class="catalog-header-option" value="price">Цена</option>
-            </select>
 
-            <a href="#" class="button-arrows button-arrows-up">
-              <span class="visually-hidden">По возрастанию</span>
-            </a>
-            <a href="#" class="button-arrows button-arrows-down">
-              <span class="visually-hidden">По возрастанию</span>
-            </a>
+            <div class="catalog-right-head">
+              <h2 class="catalog-right-header">Сортировка:</h2>
+              <select class="select-control" aria-label="Сортировка">
+                <option class="catalog-header-option" value="popular">Популярные</option>
+                <option class="catalog-header-option" value="price">Цена</option>
+              </select>
+
+              <a href="#" class="button-arrows button-arrows-up">
+                <span class="visually-hidden">По возрастанию</span>
+              </a>
+              <a href="#" class="button-arrows button-arrows-down">
+                <span class="visually-hidden">По возрастанию</span>
+              </a>
+            </div>
 
             <div class="product">
               <ul class="product-list">
@@ -167,32 +172,32 @@
                     <img class="product-card-image" src="image/product/amateur.jpg" alt="изображение товара"
                       width="360px" height="380px">
                     <h3 class="product-card-title">Любительская селфи-палка</h3>
+                    <b class="product-card-price">500 ₽</b>
                   </a>
-                  <b class="product-card-price">500 ₽</b>
                 </li>
                 <li class="product-card">
                   <a class="product-card-link" href="#">
                     <img class="product-card-image" src="image/product/waterproof.jpg" alt="изображение товара"
                       width="360px" height="380px">
                     <h3 class="product-card-title">Непотопляемая селфи-палка</h3>
+                    <b class="product-card-price">2 500 ₽</b>
                   </a>
-                  <b class="product-card-price">2 500 ₽</b>
                 </li>
                 <li class="product-card">
                   <a class="product-card-link" href="#">
                     <img class="product-card-image" src="image/product/prof.jpg" alt="изображение товара" width="360px"
                       height="380px">
                     <h3 class="product-card-title">Профессиональная селфи-палка </h3>
+                    <b class="product-card-price">1 500 ₽</b>
                   </a>
-                  <b class="product-card-price">1 500 ₽</b>
                 </li>
                 <li class="product-card">
                   <a class="product-card-link" href="#">
                     <img class="product-card-image" src="image/product/follow-me.jpg" alt="изображение товара"
                       width="360px" height="380px">
                     <h3 class="product-card-title">Селфи-палка «Следуй за мной»</h3>
+                    <b class="product-card-price">1 500 ₽</b>
                   </a>
-                  <b class="product-card-price">1 500 ₽</b>
                 </li>
               </ul>
             </div>
@@ -201,7 +206,7 @@
               <ul class="pagination-list">
                 <li class="pagination-item">
                   <a class="pagination-link pagination-prev pagination-disabled">
-                    <span class="back">Назад</span>
+                    <span class="pagination-back">Назад</span>
                   </a>
                 </li>
                 <li class="pagination-item">
@@ -271,10 +276,10 @@
 
         </section>
 
-        <section class="footer-academy">
-          <a href="tel:+78128121212" class="footer-academy-tel">Тел:+7 (812) 812-12-12</a>
-          <a class="footer-academy-link" href="https://htmlacademy.ru/">
-            <img class="footer-academy-icon" src="image/footer/logo-academy.svg" alt="html-academy" width="114.9"
+        <section class="footer-info">
+          <a href="tel:+78128121212" class="footer-info-tel">Тел:+7 (812) 812-12-12</a>
+          <a class="footer-info-link" href="https://htmlacademy.ru/">
+            <img class="footer-info-icon" src="image/footer/logo-academy.svg" alt="html-academy" width="114.9"
               height="32.9">
           </a>
         </section>
