@@ -79,15 +79,15 @@
 
           <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
             <h2 class="catalog-header">фильтр:</h2>
+
             <div class="catalog-filter-group">
-              <p class="catalog-filter-title">Стоимость</p>
-              <label class="catalog-filter-label">
+              <label class="catalog-filter-label" for="price"><p class="catalog-filter-title">Стоимость</p></label>
                 <input class="catalog-filter-input" type="range" id="price" min="0" max="9000" step="1">
-              </label>
             </div>
 
             <div class="catalog-filter-group">
-              <p class="catalog-filter-title">Цвет</p>
+            <fieldset class="catalog-filter-fieldset">
+              <legend class="catalog-filter-title">Цвет</legend>
               <ul class="catalog-filter-list">
                 <li class="catalog-filter-item">
                   <label class="control">
@@ -125,10 +125,12 @@
                   </label>
                 </li>
               </ul>
+            </fieldset>
             </div>
 
             <div class="catalog-filter-group">
-              <p class="catalog-filter-title">Bluetooth</p>
+              <fieldset class="catalog-filter-fieldset">
+              <legend class="catalog-filter-title">Bluetooth</legend>
               <ul class="catalog-filter-list">
                 <li class="catalog-filter-item">
                   <label class="control">
@@ -144,6 +146,7 @@
                     Нет
                   </label>
                 </li>
+              </fieldset>
             </div>
             <button class="catalog-filter-button" type="submit">Показать</button>
           </form>
@@ -202,35 +205,33 @@
               </ul>
             </div>
             <button class="button pagination-show-more" type="button">Показать ещё</button>
-            <div class="pagination">
-              <ul class="pagination-list">
-                <li class="pagination-item">
-                  <a class="pagination-link pagination-prev pagination-disabled">
-                    <span class="pagination-back">Назад</span>
-                  </a>
-                </li>
-                <li class="pagination-item">
-                  <a class="pagination-link-number pagination-current">1</a>
-                </li>
-                <li class="pagination-item">
-                  <a class="pagination-link-number" href="#">2</a>
-                </li>
-                <li class="pagination-item">
-                  <a class="pagination-link-number" href="#">3</a>
-                </li>
-                <li class="pagination-item">
-                  <a class="pagination-link-number" href="#">...</a>
-                </li>
-                <li class="pagination-item">
-                  <a class="pagination-link-number" href="#">15</a>
-                </li>
-                <li class="pagination-item">
-                  <a class="pagination-link pagination-next" href="#">
-                    <span class="next">Вперёд</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
+            <ul class="pagination-list">
+              <li class="pagination-item">
+                <a class="pagination-link pagination-prev pagination-disabled">
+                  <span class="pagination-back">Назад</span>
+                </a>
+              </li>
+              <li class="pagination-item">
+                <a class="pagination-link-number pagination-current">1</a>
+              </li>
+              <li class="pagination-item">
+                <a class="pagination-link-number" href="#">2</a>
+              </li>
+              <li class="pagination-item">
+                <a class="pagination-link-number" href="#">3</a>
+              </li>
+              <li class="pagination-item">
+                <a class="pagination-link-number" href="#">...</a>
+              </li>
+              <li class="pagination-item">
+                <a class="pagination-link-number" href="#">15</a>
+              </li>
+              <li class="pagination-item">
+                <a class="pagination-link pagination-next" href="#">
+                  <span class="next">Вперёд</span>
+                </a>
+              </li>
+            </ul>
           </div>
         </section>
       </div>
