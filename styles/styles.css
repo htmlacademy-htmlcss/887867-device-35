@@ -81,7 +81,6 @@ body {
 
 .search-form {
   display: flex;
-
 }
 
 .basket-list {
@@ -91,12 +90,23 @@ body {
 }
 
 .search-link {
+  position: relative;
+  display: block;
   text-decoration: none;
   font-family: "rubik", sans-serif;
   color: #000000;
   line-height: 30px;
   align-items: center;
   padding-left: 26px;
+  cursor: pointer;
+}
+
+.search-link-icon {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
 }
 
 .search-input {
@@ -125,6 +135,7 @@ body {
   line-height: 20px;
   text-align: center;
   padding: 0;
+  cursor: pointer;
 }
 
 .navigation {
@@ -186,9 +197,11 @@ body {
 }
 
 .slider {
+  position: relative;
   width: 1160px;
   margin: 0 auto;
   margin-bottom: 70px;
+  background-image: linear-gradient(#FFE17F 150px, transparent 0%);
 }
 
 .slider-products {
@@ -209,14 +222,9 @@ body {
   height: 60px;
   border: 0px;
   margin: auto 0;
-}
-
-.slider-prev {
-  background: url(../image/back.svg);
-}
-
-.slider-next {
-  background: url(../image/next.svg);
+  cursor: pointer;
+  background-color: #FFFFFF;
+  padding: 0;
 }
 
 .slider-header {
@@ -407,6 +415,8 @@ body {
 }
 
 .delivery-button {
+  display: block;
+  position: relative;
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
   line-height: 23px;
@@ -414,6 +424,15 @@ body {
   width: 1160px;
   height: 100px;
   cursor: pointer;
+  padding: 0;
+  border: 0;
+}
+
+.delivery-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
 }
 
 .inform {
@@ -466,10 +485,17 @@ body {
 }
 
 .inform-items {
+  position: relative;
   font-size: 18px;
   line-height: 20px;
   font-weight: 700;
   margin-bottom: 19px;
+  padding-left: 34px;
+}
+
+.inform-point{
+  position: absolute;
+  left: 0;
 }
 
 .inform-items:last-child {
@@ -626,6 +652,20 @@ body {
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
+}
+
+.footer-button{
+  display: block;
+  position: relative;
+}
+
+.footer-button-icon {
+  position:absolute;
+  top: 20px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
 }
 
 .footer-info {
