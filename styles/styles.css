@@ -173,13 +173,43 @@ body {
 }
 
 
-.search-link-icon {
+.login::after {
   position: absolute;
+  content: "";
+  background-image: url(../image/header/login.svg);
+  background-repeat: no-repeat;
+  height: 14px;
+  width: 16px;
   top: 0;
   bottom: 0;
   left: 0;
   margin: auto;
-  fill: #000000;
+}
+
+.compare::after {
+  position: absolute;
+  content: "";
+  background-image: url(../image/header/compare.svg);
+  background-repeat: no-repeat;
+  height: 14px;
+  width: 16px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.trash::after {
+  position: absolute;
+  content: "";
+  background-image: url(../image/header/trash.svg);
+  background-repeat: no-repeat;
+  height: 14px;
+  width: 16px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
 }
 
 .search-input {
@@ -200,7 +230,7 @@ body {
 
 .search-form::before {
   content: "";
-  background-image: url("../image/header/luppa.svg");
+  background-image: url("../image/header/feader-input.svg");
   width: 16px;
   height: 16px;
   position: absolute;
@@ -290,6 +320,7 @@ body {
 }
 
 .menu-item {
+  position: relative;
   margin-right: 40px;
   padding-bottom: 34px;
 }
@@ -311,6 +342,45 @@ body {
   position: absolute;
   right: 0;
   opacity: 0.3;
+}
+
+.menu-item:focus-within .subcatalog {
+
+}
+
+.subcatalog {
+  /* display: none */
+  display: grid;
+  grid-template-columns: repeat(3, minmax(200px, 222px));
+  column-gap: 30px;
+  row-gap: 10px;
+  grid-template-rows: auto;
+  position: absolute;
+  z-index: 1;
+  background-color: #FFE17F;
+  width: 1040px;
+  min-height: 185px;
+  padding: 0 60px;
+  list-style: none;
+  left: -60px;
+
+}
+
+.subcatalog-item {
+  padding: 0;
+  margin-bottom: 18px;
+  height: 21px;
+}
+
+.subcatalog-link {
+  font-family: 'Rubik', sans-serif;
+  text-decoration: none;
+  padding: 0;
+  color: #000000;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
 }
 
 .navigation-link {
@@ -1297,7 +1367,7 @@ body {
 }
 
 .breadcrumbs-item:last-child::after {
-background: none;
+  background: none;
 }
 
 .breadcrumbs-link {
@@ -1567,16 +1637,16 @@ background: none;
 }
 
 .product-new::before {
-content: "";
-position: absolute;
-background-image: url(../image/product-new.svg);
-width: 60px;
-height: 60px;
-top: 27px;
-right: 27px;
+  content: "";
+  position: absolute;
+  background-image: url(../image/product-new.svg);
+  width: 60px;
+  height: 60px;
+  top: 27px;
+  right: 27px;
 }
 
-.product-new:active::before{
+.product-new:active::before {
   opacity: 0.3;
 }
 
