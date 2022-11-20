@@ -29,8 +29,31 @@
           <li class="search-item">
             <a href="#" class="search-link compare">Сравнить</a>
           </li>
-          <li class="search-item">
+          <li class="search-item basket">
             <a href="#" class="search-link trash">Корзина</a>
+            <div class="popover popover-cart">
+              <ul class="popover-list">
+                <li class="popover-item">
+                  <img class="popover-img" src="./image/product/amateur.jpg" alt="Любительская селфи-палка" width="39"
+                    height="43">
+                  <p class="popover-text">Любительская селфи-палка</p>
+                  <button class="popover-list-close" type="button"> <span
+                      class="visually-hidden">Закрыть</span></button>
+                </li>
+                <li class="popover-item">
+                  <img class="popover-img" src="./image/product/prof.jpg" alt="Профессиональная селфи-палка" width="39"
+                    height="43">
+                  <p class="popover-text">Профессиональная селфи-палка</p>
+                  <button class="popover-list-close" type="button"> <span
+                      class="visually-hidden">Закрыть</span></button>
+                </li>
+              </ul>
+              <div class="inform-line">
+                <p class="goods">Товаров: 2</p>
+                <p class="sum">Сумма: 2000 ₽</p>
+              </div>
+              <a class="open-cart" href="#">Открыть корзину</a>
+            </div>
           </li>
         </ul>
       </div>
@@ -38,28 +61,15 @@
       <nav class="navigation">
         <ul class="navigation-list">
           <li class="menu-item">
-            <a href="#" class="navigation-link menu-link header-catalog">Каталог товаров
-              <svg class="header-catalog-icon" aria-hidden="true" focusable="false" width="50" height="50"
-                viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="25" cy="25" r="24" stroke="black" stroke-width="2" />
-                <g clip-path="url(#clip0_35826_573)">
-                  <path d="M33 24H26V17H24V24H17V26H24V33H26V26H33V24Z" fill="black" />
-                </g>
-                <defs>
-                  <clipPath id="clip0_35826_573">
-                    <rect width="16" height="16" fill="white" transform="translate(17 17)" />
-                  </clipPath>
-                </defs>
-              </svg>
-
-            </a>
+            <a href="#" class="navigation-link menu-link header-catalog">Каталог товаров</a>
             <ul class="subcatalog">
               <li class="subcatalog-item"><a class="subcatalog-link" href="#">Виртуальная реальность</a></li>
               <li class="subcatalog-item"><a class="subcatalog-link" href="#">Моноподы для селфи</a></li>
               <li class="subcatalog-item"><a class="subcatalog-link" href="#">Экшн-камеры</a></li>
-              <li class="subcatalog-item"><a class="subcatalog-link" href="#">Фитнес-браслеты</a></li>
-              <li class="subcatalog-item"><a class="subcatalog-link" href="#">Умные часы</a></li>
-              <li class="subcatalog-item"><a class="subcatalog-link" href="#">Квадрокоптеры</a></li>
+              <li class="subcatalog-item"><a class="subcatalog-link " href="#">Фитнес-браслеты</a></li>
+              <li class="subcatalog-item  subcatalog-item-height"><a class="subcatalog-link  " href="#">Умные часы</a>
+              </li>
+              <li class="subcatalog-item"><a class="subcatalog-link " href="#">Квадрокоптеры</a></li>
             </ul>
           </li>
           <li class="menu-item">
@@ -81,24 +91,14 @@
         <h1 class="visually-hidden">Интернет магазин "Девайс"</h1>
         <section class="slider">
           <h2 class="visually-hidden">Популярные товары</h2>
-          <div class="slider-products">
+          <div class="slider-products one">
             <div class="slider-left">
               <button type="button" class="slider-button slider-prev">
                 <span class="visually-hidden">предыдущий товар</span>
-                <svg class="slider-button-icon" aria-hidden="true" focusable="false" width="20" height="60"
-                  viewBox="0 0 20 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M20 60H16.5L0 30L16.5 0H20L3.8 30L20 60Z" fill="black" />
-                </svg>
               </button>
               <img class="slider-icon" src="image/slider-quadrocopter.png" alt="Квадрокоптер" width="560" height="560">
               <button type="button" class="slider-button slider-next">
                 <span class="visually-hidden">следующий товар</span>
-                <svg class="slider-button-icon" aria-hidden="true" focusable="false" width="20" height="60"
-                  viewBox="0 0 20 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M-5.24537e-06 1.74846e-06L3.49999 1.44248e-06L20 30L3.5 60L0 60L16.2 30L-5.24537e-06 1.74846e-06Z"
-                    fill="black" />
-                </svg>
               </button>
             </div>
             <div class="slider-right">
@@ -125,21 +125,10 @@
             <div class="slider-left">
               <button type="button" class="slider-button slider-prev">
                 <span class="visually-hidden">предыдущий товар</span>
-                <svg class="slider-button-icon" aria-hidden="true" focusable="false" width="20" height="60"
-                  viewBox="0 0 20 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M20 60H16.5L0 30L16.5 0H20L3.8 30L20 60Z" fill="black" />
-                </svg>
               </button>
               <img class="slider-icon" src="image/fitness-bras.png" alt="фитнес-браслет" width="560" height="560">
               <button type="button" class="slider-button slider-next">
                 <span class="visually-hidden">следующий товар</span>
-                <svg class="slider-button-icon" aria-hidden="true" focusable="false" width="20" height="60"
-                  viewBox="0 0 20 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M-5.24537e-06 1.74846e-06L3.49999 1.44248e-06L20 30L3.5 60L0 60L16.2 30L-5.24537e-06 1.74846e-06Z"
-                    fill="black" />
-                </svg>
-
               </button>
             </div>
             <div class="slider-right">
@@ -163,20 +152,10 @@
             <div class="slider-left">
               <button type="button" class="slider-button slider-prev">
                 <span class="visually-hidden">предыдущий товар</span>
-                <svg class="slider-button-icon" aria-hidden="true" focusable="false" width="20" height="60"
-                  viewBox="0 0 20 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M20 60H16.5L0 30L16.5 0H20L3.8 30L20 60Z" fill="black" />
-                </svg>
               </button>
               <img class="slider-icon" src="image/monopod.png" alt="моноподы" width="560" height="560">
               <button type="button" class="slider-button slider-next">
                 <span class="visually-hidden">следующий товар</span>
-                <svg class="slider-button-icon" aria-hidden="true" focusable="false" width="20" height="60"
-                  viewBox="0 0 20 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M-5.24537e-06 1.74846e-06L3.49999 1.44248e-06L20 30L3.5 60L0 60L16.2 30L-5.24537e-06 1.74846e-06Z"
-                    fill="black" />
-                </svg>
               </button>
             </div>
             <div class="slider-right">
@@ -200,20 +179,22 @@
               </table>
             </div>
           </div>
+
+
           <ul class="slider-ilst-button">
             <li class="slider-item">
               <button class="slider-button-circle slider-button-active" type="button">
-                <p class="visually-hidden">1</p>
+                <span class="visually-hidden">1</span>
               </button>
             </li>
             <li class="slider-item">
               <button class="slider-button-circle" type="button">
-                <p class="visually-hidden">2</p>
+                <span class="visually-hidden">2</span>
               </button>
             </li>
             <li class="slider-item">
               <button class="slider-button-circle" type="button">
-                <p class="visually-hidden">3</p>
+                <span class="visually-hidden">3</span>
               </button>
             </li>
           </ul>
@@ -224,8 +205,8 @@
             <li class="categories-items">
               <a href="#" class="categories-link">
                 <div class="categories-icon-div">
-                  <img class="categories-icon" src="image/VR.svg" alt="иконка шлема виртуальной реальности"
-                    width="97" height="55">
+                  <img class="categories-icon" src="image/VR.svg" alt="иконка шлема виртуальной реальности" width="97"
+                    height="55">
                 </div>
                 <h3 class="categories-header">Виртуальная реальность</h3>
               </a>
@@ -233,7 +214,7 @@
             <li class="categories-items">
               <a href="catalog.html" class="categories-link">
                 <div class="categories-icon-div">
-                  <img class="categories-icon" src="image/monopod.svg" alt="иконка моноподы" width="85.87" height="117">
+                  <img class="categories-icon" src="image/monopod.svg" alt="иконка моноподы" width="86" height="117">
                 </div>
                 <h3 class="categories-header">Моноподы для селфи</h3>
               </a>
@@ -241,8 +222,7 @@
             <li class="categories-items">
               <a href="#" class="categories-link">
                 <div class="categories-icon-div">
-                  <img class="categories-icon" src="image/go-pro.svg" alt="иконка экшн-камеры" width="71.02"
-                    height="87">
+                  <img class="categories-icon" src="image/go-pro.svg" alt="иконка экшн-камеры" width="71" height="87">
                 </div>
                 <h3 class="categories-header">Экшн-камеры</h3>
               </a>
@@ -250,8 +230,8 @@
             <li class="categories-items">
               <a href="#" class="categories-link">
                 <div class="categories-icon-div">
-                  <img class="categories-icon" src="image/fit-bras.svg" alt="иконка фитнес-браслета" width="107.31"
-                    height="64.99">
+                  <img class="categories-icon" src="image/fit-bras.svg" alt="иконка фитнес-браслета" width="107"
+                    height="65">
                 </div>
                 <h3 class="categories-header">Фитнес-браслеты</h3>
               </a>
@@ -259,7 +239,7 @@
             <li class="categories-items">
               <a href="#" class="categories-link">
                 <div class="categories-icon-div">
-                  <img class="categories-icon" src="image/watch.svg" alt="иконка часов" width="56.01" height="97.98">
+                  <img class="categories-icon" src="image/watch.svg" alt="иконка часов" width="56" height="98">
                 </div>
                 <h3 class="categories-header">Умные часы</h3>
               </a>
@@ -267,8 +247,8 @@
             <li class="categories-items">
               <a href="#" class="categories-link">
                 <div class="categories-icon-div">
-                  <img class="categories-icon" src="image/quadrocopter.svg" alt="иконка квадрокоптера" width="132.03px"
-                    height="69.01px">
+                  <img class="categories-icon" src="image/quadrocopter.svg" alt="иконка квадрокоптера" width="132"
+                    height="69">
                 </div>
                 <h3 class="categories-header">Квадрокоптеры</h3>
               </a>
@@ -289,17 +269,14 @@
                 <button type="button" class="services-button line">Кредит</button>
               </li>
             </ul>
-            <ul class="services-list">
-              <li class="services-items">
+            <div class="services-list">
+              <div class="services-items">
                 <h3 class="services-header">Доставка</h3>
                 <p class="services-text">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно
                   бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
-              </li>
-              <li class="services-items">
-                <img class="services-icon" src="image/courier.svg" alt="изображение курьера" width="136px"
-                  height="164px">
-              </li>
-            </ul>
+              </div>
+              <img class="services-icon" src="image/courier.svg" alt="изображение курьера" width="136" height="164">
+            </div>
           </div>
 
           <div class="services-container">
@@ -315,16 +292,14 @@
                 <button type="button" class="services-button line">Кредит</button>
               </li>
             </ul>
-            <ul class="services-list">
-              <li class="services-items">
+            <div class="services-list">
+              <div class="services-items">
                 <h3 class="services-header">Гарантия</h3>
-                <p class="services-text">Если из-за возгорания купленного у нас товара у вас сгорит дом — не переживайте, мы выдадим вам новый. Товар, не дом, конечно же.</p>
-              </li>
-              <li class="services-items">
-                <img class="services-icon" src="image/guarantee.svg" alt="Гарантия" width="171px"
-                  height="195px">
-              </li>
-            </ul>
+                <p class="services-text">Если из-за возгорания купленного у нас товара у вас сгорит дом — не
+                  переживайте, мы выдадим вам новый. Товар, не дом, конечно же.</p>
+              </div>
+              <img class="services-icon" src="image/guarantee.svg" alt="Гарантия" width="171" height="195">
+            </div>
           </div>
 
           <div class="services-container">
@@ -340,16 +315,14 @@
                 <button type="button" class="services-button line">Кредит</button>
               </li>
             </ul>
-            <ul class="services-list">
-              <li class="services-items">
+            <div class="services-list">
+              <div class="services-items">
                 <h3 class="services-header">Кредит</h3>
-                <p class="services-text">Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодные условия кредита. Выгодные для банка, разумеется.</p>
-              </li>
-              <li class="services-items">
-                <img class="services-icon" src="image/credit.svg" alt="Кредит" width="156px"
-                  height="188px">
-              </li>
-            </ul>
+                <p class="services-text">Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас
+                  наиболее выгодные условия кредита. Выгодные для банка, разумеется.</p>
+              </div>
+              <img class="services-icon" src="image/credit.svg" alt="Кредит" width="156" height="188">
+            </div>
           </div>
         </section>
         <section class="delivery">
@@ -420,9 +393,9 @@
               <input type="email" name="email" class="mailing-email" placeholder="Ваш e-mail">
               <button type="submit" class="mailing-button">Подписаться</button>
             </form>
-            <span class="mailing-free">
+            <div class="mailing-free">
               <p class="mailing-text inform-check">Это бесплатно</p>
-            </span>
+            </div>
           </div>
         </section>
       </div>
@@ -434,7 +407,7 @@
         <section class="footer-contacts">
           <h2 class="visually-hidden">Контакты</h2>
           <a class="footer-logo-link" href="index.html"><img class="footer-contacs-logo"
-              src="image/footer/logo-footer.svg" alt="Логотип магазина «Девайс»." width="145px" height="36px"></a>
+              src="image/footer/logo-footer.svg" alt="Логотип магазина «Девайс»." width="145" height="36"></a>
           <address class="footer-contacts-address">
             <p class="footer-contacs-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
           </address>
@@ -486,6 +459,7 @@
         </section>
 
         <section class="footer-info">
+          <h2 class="visually-hidden">Контактные данные</h2>
           <a href="tel:+78128121212" class="footer-info-tel">Тел:+7 (812) 812-12-12</a>
           <a class="footer-info-link" href="https://htmlacademy.ru/">
             <svg class="footer-info-icon" aria-hidden="true" focusable="false" width="115" height="33" fill="none"
@@ -497,6 +471,59 @@
         </section>
       </div>
     </footer>
+
+    <div class="modal-container modal-container-close">
+      <div class="modal modal-auth">
+        <button class="modal-close-button">
+          <span class="visually-hidden">Закрыть</span>
+        </button>
+        <section class="modal-content">
+          <h2 class="modal-title">Доставка под заказ</h2>
+          <form class="auth-form" action="https://echo.htmlacademy.ru/" method="post">
+            <div class="modal-content-group">
+              <p class="field-group-name field-group">
+                <label class="your-name modal-label" for="auth-login">Ваше имя:</label>
+                <input class="auth-form-field field" type="text" id="auth-login" name="auth-login"
+                  placeholder="Введите имя">
+              </p>
+              <p class="field-group">
+                <label class="email modal-label" for="auth-email">Ваш e-mail:</label>
+                <input class="auth-form-field field email-field" type="email" id="auth-email" name="auth-password"
+                  placeholder="Введите email">
+                <span class="email-field-invalid">Забавный у вас адрес</span>
+              </p>
+            </div>
+            <div class="modal-content-group">
+              <p class="field-group">
+                <label class="your-name modal-label" for="description-label">Что нужно привезти:</label>
+                <input class="description-label field" type="text" id="description-label" name="auth-login"
+                  placeholder="В свободной форме">
+              </p>
+              <p class="field-group-number field-group">
+                <label class="modal-label-number modal-label" for="number">Количество: </label>
+                <span class="tooltip">
+                  <button class="tooltip-toggle" type="button">
+                  </button>
+                  <span class="tooltip-text">Постараемся найти, сколько нужно. Привезём сколько получится по требованиям
+                    к провозу багажа.
+                  </span>
+                </span>
+                <button class="modal-label-button modal-button-less" type="button">
+                  <span class="visually-hidden">убавить</span>
+                </button>
+                <input class="field-number field" type="number" id="number" name="auth-password" value="1">
+                <button class="modal-label-button modal-button-more" type="button">
+                  <span class="visually-hidden">прибавить</span>
+                </button>
+              </p>
+            </div>
+            <div class="modal-content-group">
+              <button class="modal-filter-button line" type="submit">Отправить</button>
+            </div>
+          </form>
+        </section>
+      </div>
+    </div>
   </body>
 
 </html>
