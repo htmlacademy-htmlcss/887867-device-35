@@ -64,7 +64,7 @@
             <a href="#" class="navigation-link menu-link header-catalog">Каталог товаров</a>
             <ul class="subcatalog">
               <li class="subcatalog-item"><a class="subcatalog-link" href="#">Виртуальная реальность</a></li>
-              <li class="subcatalog-item"><a class="subcatalog-link" href="#">Моноподы для селфи</a></li>
+              <li class="subcatalog-item"><a class="subcatalog-link" href="catalog.html">Моноподы для селфи</a></li>
               <li class="subcatalog-item"><a class="subcatalog-link" href="#">Экшн-камеры</a></li>
               <li class="subcatalog-item"><a class="subcatalog-link " href="#">Фитнес-браслеты</a></li>
               <li class="subcatalog-item  subcatalog-item-height"><a class="subcatalog-link  " href="#">Умные часы</a>
@@ -121,7 +121,7 @@
             </div>
           </div>
 
-          <div class="slider-products">
+          <div class="slider-products hide">
             <div class="slider-left">
               <button type="button" class="slider-button slider-prev">
                 <span class="visually-hidden">предыдущий товар</span>
@@ -148,7 +148,7 @@
             </div>
           </div>
 
-          <div class="slider-products">
+          <div class="slider-products hide">
             <div class="slider-left">
               <button type="button" class="slider-button slider-prev">
                 <span class="visually-hidden">предыдущий товар</span>
@@ -270,16 +270,15 @@
               </li>
             </ul>
             <div class="services-list">
-              <div class="services-items">
+              <div class="services-items services-items-courier">
                 <h3 class="services-header">Доставка</h3>
-                <p class="services-text">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно
-                  бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
+                <p class="services-text">Мы с удовольствием доставим ваш товар прямо <br>к вашему подъезду совершенно
+                  бесплатно! Ведь <br>мы неплохо заработаем, поднимая его на ваш этаж.</p>
               </div>
-              <img class="services-icon" src="image/courier.svg" alt="изображение курьера" width="136" height="164">
             </div>
           </div>
 
-          <div class="services-container">
+          <div class="services-container hide">
             <h2 class="visually-hidden">Услуги</h2>
             <ul class="services-button-list">
               <li class="services-button-items ">
@@ -293,16 +292,15 @@
               </li>
             </ul>
             <div class="services-list">
-              <div class="services-items">
+              <div class="services-items services-items-guarantee">
                 <h3 class="services-header">Гарантия</h3>
                 <p class="services-text">Если из-за возгорания купленного у нас товара у вас сгорит дом — не
                   переживайте, мы выдадим вам новый. Товар, не дом, конечно же.</p>
               </div>
-              <img class="services-icon" src="image/guarantee.svg" alt="Гарантия" width="171" height="195">
             </div>
           </div>
 
-          <div class="services-container">
+          <div class="services-container hide">
             <h2 class="visually-hidden">Услуги</h2>
             <ul class="services-button-list">
               <li class="services-button-items">
@@ -316,12 +314,11 @@
               </li>
             </ul>
             <div class="services-list">
-              <div class="services-items">
+              <div class="services-items services-items-credit">
                 <h3 class="services-header">Кредит</h3>
                 <p class="services-text">Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас
                   наиболее выгодные условия кредита. Выгодные для банка, разумеется.</p>
               </div>
-              <img class="services-icon" src="image/credit.svg" alt="Кредит" width="156" height="188">
             </div>
           </div>
         </section>
@@ -493,7 +490,7 @@
                 <span class="email-field-invalid">Забавный у вас адрес</span>
               </p>
             </div>
-            <div class="modal-content-group">
+            <div class="modal-content-group modal-content-group-description">
               <p class="field-group">
                 <label class="your-name modal-label" for="description-label">Что нужно привезти:</label>
                 <input class="description-label field" type="text" id="description-label" name="auth-login"
@@ -517,7 +514,7 @@
                 </button>
               </p>
             </div>
-            <div class="modal-content-group">
+            <div class="modal-content-group modal-content-group-button">
               <button class="modal-filter-button line" type="submit">Отправить</button>
             </div>
           </form>
